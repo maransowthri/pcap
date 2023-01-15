@@ -1,8 +1,10 @@
 import utils.calculator as calculator
+import utils.calc_helper
 
 a = int(input('Number 1: '))
 b = int(input('Number 2: '))
 operator = input('Operator: ')
+print(calculator.greeting)
 
 if operator == '+':
     print(calculator.add(a, b))

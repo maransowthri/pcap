@@ -1,3 +1,7 @@
+import utils.calc_helper
+
+greeting = 'Hello World!'
+
 def add(a, b):
     return a + b
 
