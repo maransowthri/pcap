@@ -1,4 +1,6 @@
-import utils.calc_helper
+import calc_helper
+
+print(dir(calc_helper))
 
 greeting = 'Hello World!'
 
