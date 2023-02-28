@@ -13,10 +13,11 @@ class Flyable:
     def introduce(self):
         print('I\'m a flyable object')
 
-
+# methods and attributes will be loaded right to left in the passed order
 class Helicopter(Flyable, Vehicle):
-    def introduce(self):
-        print('I\'m a helicopter')
+    # def introduce(self):
+    #     print('I\'m a helicopter')
+    pass
 
 
 copter1 = Helicopter()
